@@ -1,4 +1,4 @@
-FROM golang:1.14-alpine3.11 as builder
+FROM golang:1.14 as builder
 
 RUN go get github.com/stormcat24/protodep
 
